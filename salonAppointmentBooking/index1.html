@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Book Appointment</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="#home" id="navbar__logo">Style Lounge</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#about" class="navbar__links" id="about-page">About Us</a>
+            </li>
+            <li class="navbar__item">
+              <a href="index2.html" class="navbar__links" id="services-page">Services</a>
+            </li>
+            <li class="navbar__btn">
+              <a href="index1.html" class="button" id="signup">Book Appointment</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="wrapper">
+        <h1 class="hero__heading"><span>Enter Your Details</span></h1>
+    
+        <form action= "#" class="login" method="POST">
+            <div class="field">
+                <label>name :</label>
+                <input type="text" namer="name">
+            </div>
+            <div class="field">
+                <label>Email :</label>
+                <input type="email" name="email">
+            </div>
+            <div class="field">
+                <label>Mobile :</label>
+                <input type="number" name="Mobile">
+            </div>
+            <div class="field">
+                <label>Gender :</label>
+                <input type="text"  name="Gender">
+            </div>
+            <div class="field">
+                <label>Services :</label>
+                <input type="text" name="Service">
+            </div>
+            <div class="field">
+                <label>City :</label>
+                <input type="text" name="city">
+            </div>
+            <div class="field">
+                <label>Date :</label>
+                <input type="date" name="date">
+            </div>
+            <button class="main__btn"><a href="#">Confirm</a></button> 
+        </form>
+    </div>
+    <script src="scr.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-image: url("https://www.warrentricomi.in/wp-content/uploads/2017/02/hair-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /*services */
+  .services h1 {
+    text-align: center;
+    background-color: #833ab4;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+  }
+
+  .services__wrapper {
+    place-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .services__card {
+    opacity: 60%;
+    text-align: center;
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    border-radius: 4px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(6, 0, 8);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    transition: 0.3s ease-in;
+  }
+
+  .services__card:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+
